@@ -14,5 +14,12 @@ function calculateRectangle() {
 
     const result = document.getElementById('calculation-2')
     result.innerText = calculation;
+
+    const inputRec = document.getElementById('area-rec').innerText ;
+    const conRec = document.getElementById('area-calc');
+    const pRec = document.createElement('p');
+    pRec.innerText = inputRec;
+    conRec.appendChild(pRec);
+
     
 }

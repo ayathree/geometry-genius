@@ -15,4 +15,12 @@ function calculateTriangle() {
     // show-result
     const showTriangle = document.getElementById('calculation');
     showTriangle.innerText = resultTriangle;
+
+    const inputTri = document.getElementById('area-tri').innerText ;
+    const conTri = document.getElementById('area-calc');
+    const pTri = document.createElement('p');
+    pTri.innerText = inputTri;
+    conTri.appendChild(pTri);
+
 }
+

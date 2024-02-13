@@ -9,6 +9,12 @@ function calculationParallelogram() {
 
     setCalculation('calculation-3', area);
 
+    const inputPara = document.getElementById('area-para').innerText ;
+    const conPara = document.getElementById('area-calc');
+    const pPara = document.createElement('p');
+    pPara.innerText = inputPara;
+    conPara.appendChild(pPara);
+
 
     
 }
